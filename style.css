@@ -215,16 +215,10 @@ main {
     width: 100%;
 }
 
-
-
-
 .box-sobre-empresa-text {
     width: 50%;
     height: 100%;
 }
-
-
-
 .quem-somos {
     display: flex;
     flex-direction: column;
@@ -322,4 +316,92 @@ main {
     background-repeat: no-repeat;
     width: 50%;
     height: 100%;
+}
+
+.trabalhos-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.jardim-box-1 {
+    display: flex;
+    width: 100%;
+    background-color: #527236;
+}
+
+.jardim-box-1 img {
+    width: 33.33%;
+}
+
+.jardim-box-1-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.jardim-box-1-text h2{
+    font-size: 4.5em;
+    color: #3D522A;
+}
+
+.jardim-box-2 {
+    display: flex;
+}
+
+.jardim-box-2 img{
+    width: 33.33%;
+}
+
+.atendemos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    padding: 5rem 1rem;
+}
+
+.atendemos-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.atendemos-box h2{
+    font-size: 42;
+    color: #E88C24;
+}
+
+.atendemos-box img{
+    height: 40px;
+}
+
+.atendemos-email-wpp-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+}
+
+.box-contato-atendemos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-contato-atendemos a{
+    font-size: 1em;
+    color: #E88C24;
+    
+}
+
+.box-contato-atendemos img {
+    height: 40px;
 }
