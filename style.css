@@ -405,3 +405,69 @@ main {
 .box-contato-atendemos img {
     height: 40px;
 }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #445F2D;
+    height: 300px;
+}
+
+.box-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 73%;
+    width: 100%;
+    padding: 0em 2em;
+}
+
+.logo-footer {
+    height: 200px;
+}
+
+.bot-footer-top-icons {
+    display: flex;
+    gap: 8rem;
+}
+
+.bot-footer-top-icons img {
+    height: 45px;
+}
+
+.box-footer-top-info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+}
+
+.box-footer-top-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+    color: #fff;
+    border-top: solid 1px #ffffff8e;
+    height: 27%;
+}
+
+.box-footer-bottom a {
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+    color: #fff;
+    transition: 1s;
+}
+
+.box-footer-bottom a:hover{
+    border-bottom: solid 1px #fff;
+    transition: 1s;
+}
