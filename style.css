@@ -56,6 +56,30 @@ header {
 
 }
 
+.wpp-fixed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background-color: rgba(43,183,65,255);
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 2px transparent;
+    transition: 300ms;
+    box-shadow: #00000086 3px 5px 10px 0px;;
+}
+
+.wpp-fixed:hover{
+    border: solid 2px #fff;
+}
+
+.wpp-fixed img{
+    height: 40px;
+    width: 40px;
+}
+
 .header-top {
     height: 2.5rem;
     display: flex;
@@ -638,7 +662,7 @@ main {
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-.footer-container {
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
