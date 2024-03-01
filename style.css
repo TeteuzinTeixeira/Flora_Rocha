@@ -68,7 +68,8 @@ header {
     border-radius: 50%;
     border: solid 2px transparent;
     transition: 300ms;
-    box-shadow: #00000086 3px 5px 10px 0px;;
+    box-shadow: #00000086 3px 5px 10px 0px;
+    z-index: 10;
 }
 
 .wpp-fixed:hover{
@@ -231,10 +232,10 @@ main {
 }
 
 .card-servicos:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
     border-radius: 25px;
     box-shadow: 1px 1px 10px silver;
-    transition: 1s;
+    transition: 1s !important;
     z-index: 1;
 }
 
@@ -563,19 +564,11 @@ main {
     height: 1.8rem;
 }
 
-
-
-
-
-
-
-
-
-
 .trabalhos-container {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #527236;
 }
 
 .jardim-box-1 {
@@ -627,7 +620,7 @@ main {
 }
 
 .atendemos-box h2{
-    font-size: 42;
+    font-size: 2em;
     color: #E88C24;
 }
 
@@ -726,3 +719,4 @@ footer {
     border-bottom: solid 1px #fff;
     transition: 1s;
 }
+

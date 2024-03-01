@@ -1,3 +1,53 @@
+@media screen and (max-width: 1444px) {
+    .atendemos-box h2{
+        font-size: 1.8em;
+    }
+
+    .box-contato-atendemos img {
+        height: 2.2em;
+    }
+
+    .box-contato-atendemos a{
+        font-size: 0.8em;
+    }
+
+    .atendemos-box img{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .atendemos-box h2{
+        font-size: 1.4em;
+    }
+    
+    .box-contato-atendemos img {
+        height: 2em;
+    }
+
+    .box-contato-atendemos{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .atendemos-box h2{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 950px) {
 
     footer{

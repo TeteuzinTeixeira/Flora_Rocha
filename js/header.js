@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
-    var headerTop = document.getElementById('header-top');
-    var headerBottom = document.getElementById('header-bottom');
+    var headerTop = document.getElementById('header_top');
+    var headerBottom = document.getElementById('header_bottom');
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     var windowWidth = window.innerWidth || document.documentElement.clientWidth;
   
@@ -25,6 +25,8 @@ window.addEventListener('DOMContentLoaded', function() {
   
 
 //efeito em cima do header  
+
+
 var header = document.getElementById("header");
 var navigationHeader = document.getElementById("navigation_header")
 var content = document.getElementById("content")

@@ -7,37 +7,66 @@
     <title>Flora Rocha</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <script src="./header.js" defer></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="responsive_header.css">
+    <script src="./js/header.js" defer></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
     <header>
 
-        <div class="header-top" id="header-top">
-            <a href="" class="icons-link-header"><img src="./assets/icons/whatsapp.png" alt=""></a>
-            <a href="" class="icons-link-header"><img src="./assets/icons/instagram.png" alt=""></a>
-            <a href="" class="icons-link-header"><img src="./assets/icons/facebook.png" alt=""></a>
-        </div>
-
-        <div class="header-bottom" id="header-bottom">
-            <a href="" class="img-logo-header"><img src="./assets/logo/logo.jpg" alt=""></a>
-            <div class="box-buttons-header">
-                <a href="#quem_somos" class="button-header">Quem Somos</a>
-                <a href="" class="button-header">Trabalhos</a>
-                <a href="" class="button-header">Local</a>
+        <div class="header_top" id="header_top">
+            
+            <div class="box_rede_right">
+                <a href=""><img src="assets/icons/whatsapp.png" alt="whatsapp" srcset=""></a>
+                <a href=""><img src="assets/icons/instagram.png" alt="instagram" srcset=""></a>
+                <a href=""><img src="assets/icons/facebook.png" alt="facebook" srcset=""></a>
             </div>
         </div>
 
+        <div class="header_bottom" id="header_bottom">
+            <button class="btn_icon_header" onclick="toggleSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <div class="box_img_header">
+                <a href="#">
+                    <img src="assets/logo/logo-transparent.png" alt="imagem logo">
+                </a>
+            </div>
+
+            <nav id="navigation_header">
+                <button class="btn_icon_header btn_closed" onclick="toggleSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+
+                <a href="#top" class="button_header">Quem Somos</a>
+                <a href="#sobre" class="button_header" class="scroll-link">Trabalho</a>
+                <a href="#sobre" class="button_header" class="scroll-link">Local</a>
+
+                <a href="" class="btn_link_mobile"><img src="assets/icons/whatsapp.png" alt="whatsapp" srcset=""></a>
+                <a href="" class="btn_link_mobile"><img src="assets/icons/facebook.png" alt="facebook" srcset=""></a>
+                <a href="" class="btn_link_mobile"><img src="assets/icons/instagram.png" alt="instagram" srcset=""></a>
+
+            </nav>
+        </div>
     </header>
-
-    <main>
-
-        <a href="https://api.whatsapp.com/send?phone=551191341234" class="wpp-fixed"><img src="assets/images/wpp.png"></a>
+    <main tabindex="0" onclick="closedSideBar()" id="content" id="top">
 
         <div class="inicio">
 
-            <div class="box-title-inicio">
+            <div class="box-title-inicio" data-aos="fade-down" data-aos-duration='2000'>
                 <h1>Flora Rocha</h1>
                 <p>Transformando terrenos em sonhos verdes</p>
                 <a href="">Veja Mais</a>
@@ -47,41 +76,42 @@
 
         <div class="servicos">
 
-            <div class="card-servicos">
+            <div class="card-servicos" data-aos="flip-left" data-aos-duration='2000'>
                 <img src="./assets/icons/poda.png" alt="">
                 <h2>Poda Estética e de Segurança</h2>
                 <p>Saúde das árvores preservada</p>
             </div>
 
-            <div class="card-servicos">
+            <div class="card-servicos" data-aos="flip-left" data-aos-duration='2000'>
                 <img src="./assets//icons/planejamento.png" alt="">
                 <h2>Planejamento de Paisagismo</h2>
                 <p>Posicionamento estratégico de plantas.</p>
             </div>
 
-            <div class="card-servicos">
+            <div class="card-servicos" data-aos="flip-left" data-aos-duration='2000'>
                 <img src="./assets/icons/jardim.png" alt="">
                 <h2>Manutenção de Jardim</h2>
                 <p>Poda de plantas ornamentais.</p>
             </div>
 
-            <div class="card-servicos">
+            <div class="card-servicos" data-aos="flip-left" data-aos-duration='2000'>
                 <img src="./assets/icons/planta.png" alt="">
                 <h2>Venda de plantas</h2>
                 <p>Opções para diferentes ambientes</p>
             </div>
+
+
         </div>
 
         <div class="sobre-empresa">
 
-            <div id="quem_somos"/>
-            
             <div class="quem-somos-container">
-                
+
                 <div class="quem-somos box-sobre-empresa-text">
-                    <h2>QUEM SOMOS</h2>
-                    
-                    <p>Somos uma empresa apaixonada pelo poder da natureza e dedicada a promover ambientes mais verdes e
+
+                    <h2 id="quem_somos" data-aos="fade-down" data-aos-duration='2000'>QUEM SOMOS</h2>
+
+                    <p data-aos="fade-down">Somos uma empresa apaixonada pelo poder da natureza e dedicada a promover ambientes mais verdes e
                         saudáveis por meio da arborização. Nossa equipe é composta por especialistas em botânica,
                         paisagismo e sustentabilidade, unidos por um objetivo comum: transformar espaços urbanos em
                         oásis naturais.
@@ -91,7 +121,7 @@
                         cidades, mas também desempenham um papel crucial na melhoria da qualidade do ar, na redução do
                         calor urbano e no fomento da biodiversidade.</p>
                 </div>
-                
+
                 <div class="img-sobre-empresa box-image-sobre-empresa"></div>
 
             </div>
@@ -101,8 +131,8 @@
                 <div class="img-entre-em-contato-container box-image-sobre-empresa"></div>
 
                 <div class="entre-em-contato box-sobre-empresa-text">
-                    <h2>ENTRE EM <span>CONTATO</span> E VENHA TRABALHAR CONOSCO</h2>
-                    <a href="">Contato</a>
+                    <h2 data-aos="fade-down">ENTRE EM <span>CONTATO</span> E VENHA TRABALHAR CONOSCO</h2>
+                    <a href="" data-aos="fade-down">Contato</a>
                 </div>
 
             </div>
@@ -114,22 +144,22 @@
         <div class="instagram-contato-container">
             <div class="instagram-contato-box-left">
 
-                <h2>Simples e Eficiente</h2>
+                <h2 data-aos="fade-up">Simples e Eficiente</h2>
 
-                <h1>Venha fazer seu novo jardim conosco</h1>
+                <h1 data-aos="fade-up">Venha fazer seu novo jardim conosco</h1>
 
                 <div class="box-text-contato-main">
 
                     <div class="box-icon-text-contato">
                         <div class="bg-icon-contato"><img src="./assets/icons/verifiqueNossoTrabalhos.png" alt=""
                                 srcset=""></div>
-                        <div class="box-text-contato">
+                        <div class="box-text-contato" data-aos="fade-up" data-aos-duration='2000'>
                             <h3>Verifique nossos trabalhos</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, optio.</p>
                         </div>
                     </div>
 
-                    <div class="box-icon-text-contato">
+                    <div class="box-icon-text-contato" data-aos="fade-up" data-aos-duration='2000'>
                         <div class="bg-icon-contato"><img src="./assets/icons/entreEmContato.png" alt="" srcset="">
                         </div>
                         <div class="box-text-contato">
@@ -138,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="box-icon-text-contato">
+                    <div class="box-icon-text-contato" data-aos="fade-up" data-aos-duration='2000'>
                         <div class="bg-icon-contato"><img src="./assets/icons/aproveiteNossoTrabalho.png" alt=""
                                 srcset=""></div>
                         <div class="box-text-contato">
@@ -151,7 +181,7 @@
 
             </div>
 
-            <div class="instagram-contato-box-right">
+            <div class="instagram-contato-box-right" data-aos="fade-up" data-aos-duration='2000'>
                 <div class="box-instagram">
                     <div class="bg-img-instagram"></div>
 
@@ -164,53 +194,40 @@
                         <div class="linha-horizontal-laranja"></div>
 
                     </div>
-                        <div class="box-icons-instagram">
-                            <div class="box-icons-instagram-left">
-                                <div class="bg-color-icon-instagram"><img src="./assets/icons/seta.png" alt=""></div>
-                                
-                                <div class="bg-color-icon-instagram"> <img src="./assets/icons/folha.png" alt="" srcset=""></div>
-                               
-                                <div class="bg-color-icon-instagram"><img src="./assets/icons/mapa.png" alt="" srcset=""></div>
-                                
+                    <div class="box-icons-instagram">
+                        <div class="box-icons-instagram-left">
+                            <div class="bg-color-icon-instagram"><img src="./assets/icons/seta.png" alt=""></div>
+
+                            <div class="bg-color-icon-instagram"> <img src="./assets/icons/folha.png" alt="" srcset="">
                             </div>
 
-                            <img src="./assets/icons/coracao.png" alt="" class="icon-coracao">
+                            <div class="bg-color-icon-instagram"><img src="./assets/icons/mapa.png" alt="" srcset="">
+                            </div>
+
                         </div>
-                    
+
+                        <img src="./assets/icons/coracao.png" alt="" class="icon-coracao">
+                    </div>
                 </div>
-
             </div>
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
         <div class="trabalhos-container">
 
             <div class="jardim-box-1">
 
                 <div class="jardim-box-1-text">
-                    <h2>NOSSOS ULTIMOS TRABALHOS</h2>
+                    <h2 id="trabalhos" data-aos="fade-down" data-aos-duration='2000'>NOSSOS ULTIMOS TRABALHOS</h2>
                 </div>
 
-                <img src="assets/images/Jardim3.png">
-                <img src="assets/images/Jardim4.png">
+                <img src="assets/images/Jardim3.png" data-aos="zoom-in" data-aos-duration='1000'>
+                <img src="assets/images/Jardim4.png" data-aos="zoom-in" data-aos-duration='1000'>
             </div>
 
             <div class="jardim-box-2">
-                <img src="assets/images/Jardim5.png">
-                <img src="assets/images/Jardim6.png">
-                <img src="assets/images/Jardim7.png">
+                <img src="assets/images/Jardim5.png" data-aos="zoom-in" data-aos-duration='1000'>
+                <img src="assets/images/Jardim6.png" data-aos="zoom-in" data-aos-duration='1000'>
+                <img src="assets/images/Jardim7.png" data-aos="zoom-in" data-aos-duration='1000'>
             </div>
 
         </div>
@@ -218,7 +235,7 @@
         <div class="atendemos-container">
 
             <div class="atendemos-box">
-                <h2>ATENDEMOS TODA REGIAO DO ALTO TIETE</h2>
+                <h2>ATENDEMOS TODA REGIAO DE SÃO PAULO</h2>
                 <img src="assets/logo/Maps.png">
             </div>
 
@@ -231,7 +248,8 @@
 
                 <div class="box-contato-atendemos">
                     <img src="assets/logo/whatsapp.png">
-                    <a href="https://api.whatsapp.com/send?phone=551191341234">(11) 9 134-1234</a>
+                    <a href="https://api.whatsapp.com/send?phone=551191341234" style="text-decoration: none;">(11) 9
+                        134-1234</a>
                 </div>
 
             </div>
@@ -267,6 +285,16 @@
         </footer>
 
     </main>
+
+    <a href="https://api.whatsapp.com/send?phone=551191341234" class="wpp-fixed"><img
+        src="assets/images/wpp.png"></a>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 50
+        });
+    </script>
 
 </body>
 
