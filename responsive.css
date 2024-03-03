@@ -1,5 +1,506 @@
+@media(max-width: 1444px) {
+    main {
+        margin-top: 4rem;
+    }
+
+    .box-title-inicio h1 {
+        font-size: 3.5em;
+    }
+
+    .box-title-inicio p {
+        font-size: 1.4em;
+    }
+
+    .box-title-inicio a {
+        width: 8rem;
+        height: 3rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    main {
+        margin-top: 3rem;
+    }
+
+    .box-title-inicio h1 {
+        font-size: 3em;
+    }
+
+    .box-title-inicio p {
+        font-size: 1.2em;
+    }
+
+    .box-title-inicio a {
+        width: 7rem;
+        height: 2.5rem;
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width: 525px) {
+    .box-title-inicio {
+        padding: 0rem 10px;
+    }
+
+    .box-title-inicio h1 {
+        font-size: 2.5em;
+    }
+
+    .box-title-inicio p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .box-title-inicio a {
+        display: none;
+    }
+}
+
+
+
+/* servicos */
+
+@media(max-width: 1444px) {
+
+    .servicos {
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .card-servicos {
+        height: 15rem;
+        width: 16rem;
+    }
+
+    .card-servicos img {
+        width: 4rem;
+    }
+
+    .card-servicos h2 {
+        font-size: 1.1em;
+    }
+
+    .card-servicos p {
+        font-size: 0.9em;
+    }
+
+}
+
+@media(max-width: 1280px) {
+    .servicos {
+        padding: 3rem 1rem;
+        gap: 2rem;
+    }
+
+    .card-servicos img {
+        width: 3rem;
+    }
+}
+
+@media(max-width: 1160px) {
+    .servicos {
+        padding: 3rem 1rem;
+        gap: 3rem;
+    }
+
+    .card-servicos {
+        height: 15rem;
+        width: 18rem;
+        flex-basis: calc(40%);
+        ;
+    }
+}
+
+@media(max-width: 650px) {
+    .servicos {
+        padding: 3rem 1rem;
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .card-servicos {
+        height: 13rem;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .card-servicos img {
+        margin-bottom: 0rem;
+    }
+}
+
+@media(max-width: 1444px) {
+
+    .quem-somos-container,
+    .entre-em-contato-container {
+        height: 27rem;
+    }
+
+    .quem-somos {
+        gap: 2rem;
+        padding: 4rem 1rem;
+    }
+
+    .quem-somos h2 {
+        font-size: 1.8rem;
+    }
+
+    .quem-somos p {
+        width: 90%;
+    }
+
+    .entre-em-contato h2 {
+        font-size: 2.5em;
+    }
+
+}
+
+@media(max-width: 1280px) {
+
+    .quem-somos-container,
+    .entre-em-contato-container {
+        height: 23rem;
+    }
+
+    .quem-somos {
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .quem-somos h2 {
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .quem-somos p {
+        font-size: 0.9em;
+        width: 95%;
+    }
+
+    .entre-em-contato h2 {
+        font-size: 2em;
+        width: 80%;
+    }
+}
+
+@media(max-width: 920px) {
+    .quem-somos-container {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .entre-em-contato-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .img-sobre-empresa,
+    .img-entre-em-contato-container {
+        height: 17rem;
+        width: 100%;
+    }
+
+    .quem-somos,
+    .entre-em-contato {
+        padding: 2rem 1rem;
+        min-height: 20rem;
+        width: 100%;
+    }
+
+    .quem-somos p {
+        font-size: 0.9em;
+        width: 85%;
+    }
+
+    .quem-somos h2 {
+        font-size: 1.3rem;
+    }
+
+    .entre-em-contato h2 {
+        font-size: 2em;
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 540px) {
+    .entre-em-contato h2 {
+        font-size: 2em;
+        width: 95%;
+    }
+}
+
+@media(max-width: 450px) {
+    .quem-somos p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .entre-em-contato h2 {
+        font-size: 1.6em;
+        width: 95%;
+    }
+}
+
+/* instagram */
 @media screen and (max-width: 1444px) {
-    .atendemos-box h2{
+
+    .instagram-contato-box-left,
+    .instagram-contato-box-right {
+        width: 50%;
+    }
+
+    .instagram-contato-box-left h2 {
+        font-size: 0.9em;
+    }
+
+    .instagram-contato-box-left h1 {
+        font-size: 2.3em;
+    }
+
+    .box-text-contato-main {
+        gap: 3rem;
+        margin-top: 1rem
+    }
+
+    .bg-icon-contato {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .box-text-contato h3,
+    .box-text-contato p {
+        font-size: 0.9em;
+    }
+
+    .box-instagram {
+        width: 25rem;
+        height: 28rem;
+    }
+
+    .bg-img-instagram {
+        height: 10rem;
+    }
+
+    .box-perfil-instagram img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .bg-color-icon-instagram {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .bg-color-icon-instagram img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .icon-coracao {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .instagram-contato-container {
+        padding: 5rem 2rem;
+    }
+
+    .instagram-contato-box-right {
+        justify-content: flex-end;
+    }
+
+    .instagram-contato-box-left {
+        gap: 2rem;
+    }
+
+    .box-text-contato-main {
+        gap: 3rem;
+        margin-top: 1rem
+    }
+
+    .bg-icon-contato img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .box-text-contato {
+        gap: 0.5rem;
+    }
+
+    .box-text-contato h3,
+    .box-text-contato p {
+        font-size: 0.8em;
+    }
+
+    .box-instagram h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .box-instagram {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .bg-img-instagram {
+        height: 9rem;
+    }
+
+    .box-perfil-instagram img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .bg-color-icon-instagram {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .bg-color-icon-instagram img {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .icon-coracao {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .instagram-contato-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .instagram-contato-box-left {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .instagram-contato-box-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .box-text-contato {
+        width: 100%;
+        z-index: 20;
+    }
+
+    .bg-icon-contato {
+        width: 3.5rem;
+        height: 3rem;
+    }
+
+    .bg-icon-contato img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .instagram-contato-container {
+        padding: 4rem 1rem;
+    }
+
+    .instagram-contato-box-left h1 {
+        color: #E88C24;
+        font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1444px) {
+    .jardim-box-1-text h2 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .jardim-box-1-text h2 {
+        font-size: 3em;
+    }
+
+    .jardim-box-1,
+    .jardim-box-2 {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .trabalhos-container {
+        flex-direction: row;
+    }
+
+    .jardim-box-1 img,
+    .jardim-box-2 img,
+    .jardim-box-1-text {
+        width: 100%;
+        height: 50%;
+    }
+
+    .img-nossos-trabalhos-topo {
+        border-radius: 60px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img-nossos-trabalhos-topo {
+        border-radius: 0px
+    }
+
+    .jardim-box-1-text h2 {
+        font-size: 2.5em;
+    }
+
+    .trabalhos-container {
+        flex-direction: column;
+    }
+
+    .jardim-box-1,
+    .jardim-box-2 {
+        width: 100%;
+    }
+
+    .jardim-box-1-text {
+        min-height: 10rem;
+    }
+
+    .jardim-box-1 img,
+    .jardim-box-2 img {
+        height: 20rem;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1444px) {
+    .atendemos-box h2 {
         font-size: 1.8em;
     }
 
@@ -7,33 +508,61 @@
         height: 2.2em;
     }
 
-    .box-contato-atendemos a{
+    .box-contato-atendemos a {
         font-size: 0.8em;
     }
 
-    .atendemos-box img{
+    .atendemos-box img {
         width: 2rem;
         height: 2rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .atendemos-box h2{
+    .atendemos-box h2 {
         font-size: 1.4em;
     }
-    
+
     .box-contato-atendemos img {
         height: 2em;
     }
 
-    .box-contato-atendemos{
+    .box-contato-atendemos {
         gap: 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .atendemos-box h2{
+    .atendemos-box h2 {
         font-size: 1em;
+    }
+
+    .atendemos-box img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .box-contato-atendemos img {
+        height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .atendemos-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .atendemos-email-wpp-box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .atendemos-box {
+        flex-direction: row-reverse;
     }
 }
 
@@ -41,28 +570,54 @@
 
 
 
-
-
-
-
-
-
-
-@media screen and (max-width: 950px) {
-
-    footer{
-        height: 600px;
+@media screen and (max-width: 1444px) {
+    .bot-footer-top-icons img {
+        height: 27px;
     }
 
-    .box-footer-top{
-        flex-direction: column;
+    .logo-footer {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .box-footer-top-info {
+        font-size: 0.8em;
+        gap: 2px;
+    }
+
+    .box-footer-bottom p {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .box-footer-top {
+        flex-direction: column-reverse;
         justify-content: center;
         height: auto;
         gap: 3rem;
-        padding-bottom: 2.5em;
+        padding-top: 2rem;
     }
 
-    .box-footer-top-info{
-        align-items: center;
+    .box-footer-top-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        text-align: left;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bot-footer-top-icons {
+        gap: 3rem;
+    }
+
+    .box-footer-bottom {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        margin-bottom: 4rem;
     }
 }

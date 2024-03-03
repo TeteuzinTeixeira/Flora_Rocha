@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.header {
-    width: auto;
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: auto;
-    position: relative;
-    display: block;
+
+    position: fixed;
+
+    z-index: 100;
+
 }
 
 .header_top {
@@ -95,7 +102,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap:4rem;
+    gap: 4rem;
     transition: 0.3s;
 }
 
@@ -124,7 +131,8 @@
 
 .button_header:hover {
     transition: 0.5s;
-    border-bottom: 1px solid #E88C24;;
+    border-bottom: 1px solid #E88C24;
+    ;
     padding: 2% 0;
     outline: none;
 

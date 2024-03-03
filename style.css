@@ -42,28 +42,16 @@ body {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
 
-    position: fixed;
 
-    z-index: 100;
-
-}
-
-.wpp-fixed{
+.wpp-fixed {
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     right: 20px;
     bottom: 30px;
-    background-color: rgba(43,183,65,255);
+    background-color: rgba(43, 183, 65, 255);
     padding: 15px;
     border-radius: 50%;
     border: solid 2px transparent;
@@ -72,60 +60,15 @@ header {
     z-index: 10;
 }
 
-.wpp-fixed:hover{
+.wpp-fixed:hover {
     border: solid 2px #fff;
 }
 
-.wpp-fixed img{
+.wpp-fixed img {
     height: 40px;
     width: 40px;
 }
 
-.header-top {
-    height: 2.5rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    background-color: #E88C24;
-    gap: 7rem;
-    padding-right: 5rem;
-}
-
-.icons-link-header img {
-    height: 1.5rem;
-}
-
-
-.header-bottom {
-    height: 6rem;
-    width: 100%;
-    display: flex;
-    background-color: white;
-    border-bottom: 1px solid silver;
-
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5rem;
-}
-
-.img-logo-header img {
-    height: 5rem;
-}
-
-.box-buttons-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6rem;
-}
-
-.button-header {
-    text-decoration: none;
-    color: #E88C24;
-    border: none;
-    font-weight: bold;
-}
 
 
 main {
@@ -138,7 +81,7 @@ main {
 
 .inicio {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-image: url(./assets/images/bg-inicio.jfif);
     background-position: center;
     background-repeat: no-repeat;
@@ -149,6 +92,7 @@ main {
     align-items: center;
 
     padding-bottom: 4rem;
+    max-height: 1080px;
 }
 
 
@@ -195,12 +139,14 @@ main {
 
 .servicos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: auto;
     padding: 3rem 2rem;
+    width: 100%;
 
     gap: 5rem;
+
 }
 
 .card-servicos {
@@ -213,6 +159,7 @@ main {
     color: #E88C24;
     gap: 1rem;
     transition: transform 0.5s ease;
+    padding: 3px;
 }
 
 .card-servicos img {
@@ -321,35 +268,13 @@ main {
 .entre-em-contato h2 {
     font-size: 3em;
     text-align: center;
-    width: 70%;
+    width: 80%;
 }
 
 .entre-em-contato h2 span {
     color: #527236;
 }
 
-.entre-em-contato a {
-    color: #000;
-    background-color: #ffffffc0;
-    border: solid 2px #ffffff88;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 10rem;
-    height: 4rem;
-    margin-top: 40px;
-    font-size: 20px;
-
-    text-decoration: none;
-}
-
-.entre-em-contato a:hover {
-    background-color: #ffffff2d;
-    border: solid 2px #ffffffc0;
-    transition: 300ms;
-}
 
 
 .img-sobre-empresa {
@@ -369,7 +294,7 @@ main {
 
 /* ////////////////////////////////////////////////////////////////////////// */
 
-.instagram-contato-container{
+.instagram-contato-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,25 +304,26 @@ main {
 }
 
 
-.instagram-contato-box-left, .instagram-contato-box-right{
+.instagram-contato-box-left,
+.instagram-contato-box-right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
 }
 
-.instagram-contato-box-left{
+.instagram-contato-box-left {
     gap: 3rem;
     flex-direction: column;
 }
 
-.instagram-contato-box-left h2{
+.instagram-contato-box-left h2 {
     color: white;
     font-size: 1em;
     width: 100%;
 }
 
-.instagram-contato-box-left h1{
+.instagram-contato-box-left h1 {
     color: #E88C24;
     font-size: 3em;
     width: 100%;
@@ -405,7 +331,7 @@ main {
 }
 
 
-.box-text-contato-main{
+.box-text-contato-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -416,7 +342,7 @@ main {
     margin-top: 2rem;
 }
 
-.box-icon-text-contato{
+.box-icon-text-contato {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -424,7 +350,7 @@ main {
 }
 
 
-.box-text-contato{
+.box-text-contato {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,10 +358,10 @@ main {
     gap: 1rem;
     color: white;
     width: 70%;
-    
+
 }
 
-.bg-icon-contato{
+.bg-icon-contato {
     width: 4rem;
     height: 4rem;
     background-color: #E88C24;
@@ -445,19 +371,19 @@ main {
     align-items: center;
 }
 
-.box-text-contato h3{
+.box-text-contato h3 {
     font-weight: bold;
     font-size: 1em;
     width: 100%;
 }
 
-.box-text-contato p{
-    font-weight:300;
+.box-text-contato p {
+    font-weight: 300;
     font-size: 1em;
     width: 100%;
 }
 
-.box-instagram{
+.box-instagram {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -470,7 +396,7 @@ main {
     box-shadow: 40px -100px 200px #e88d2465;
 }
 
-.bg-img-instagram{
+.bg-img-instagram {
     background-image: url(./assets/images/img-instagram.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -480,15 +406,15 @@ main {
 }
 
 
-.box-instagram h1{
+.box-instagram h1 {
     font-size: 1em;
     font-weight: 500;
-   margin-bottom: 1rem;
+    margin-bottom: 1rem;
     width: 100%;
 }
 
 
-.box-perfil-instagram{
+.box-perfil-instagram {
     display: flex;
     width: 100%;
     height: auto;
@@ -496,14 +422,13 @@ main {
     align-items: center;
 
     gap: 1rem;
-   
 }
 
-.box-perfil-instagram img{
+.box-perfil-instagram img {
     width: 5rem;
 }
 
-.box-perfil-instagram a{
+.box-perfil-instagram a {
     color: black;
     font-size: 0.9em;
     text-decoration: none;
@@ -511,14 +436,14 @@ main {
 
 
 
-.linha-horizontal-laranja{
+.linha-horizontal-laranja {
     width: 11rem;
     height: 5px;
     background-color: #E88C24;
     border-radius: 100px;
 }
 
-.content-box-instagram{
+.content-box-instagram {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -530,8 +455,7 @@ main {
     margin-bottom: 1rem;
 }
 
-
-.box-icons-instagram{
+.box-icons-instagram {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -539,15 +463,14 @@ main {
     height: auto;
 }
 
-.box-icons-instagram-left{
-    
+.box-icons-instagram-left {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.bg-color-icon-instagram{
+.bg-color-icon-instagram {
     background-color: rgba(214, 214, 214, 0.459);
     display: flex;
     justify-content: center;
@@ -555,14 +478,16 @@ main {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 100px;
-    
-
 }
 
-.icon-coracao{
+.icon-coracao {
     width: 1.8rem;
     height: 1.8rem;
 }
+
+
+
+/* ///////////////////////////////////// */
 
 .trabalhos-container {
     display: flex;
@@ -581,7 +506,7 @@ main {
     width: 33.33%;
 }
 
-.jardim-box-1-text{
+.jardim-box-1-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -589,7 +514,7 @@ main {
     padding: 10px;
 }
 
-.jardim-box-1-text h2{
+.jardim-box-1-text h2 {
     font-size: 4.5em;
     color: #3D522A;
 }
@@ -598,9 +523,12 @@ main {
     display: flex;
 }
 
-.jardim-box-2 img{
+.jardim-box-2 img {
     width: 33.33%;
 }
+
+
+
 
 .atendemos-container {
     display: flex;
@@ -619,12 +547,12 @@ main {
     gap: 1rem;
 }
 
-.atendemos-box h2{
+.atendemos-box h2 {
     font-size: 2em;
     color: #E88C24;
 }
 
-.atendemos-box img{
+.atendemos-box img {
     height: 40px;
 }
 
@@ -636,17 +564,17 @@ main {
     gap: 1rem;
 }
 
-.box-contato-atendemos{
+.box-contato-atendemos {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.box-contato-atendemos a{
+.box-contato-atendemos a {
     font-size: 1em;
     color: #E88C24;
-    
+
 }
 
 .box-contato-atendemos img {
@@ -660,7 +588,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     background-color: #445F2D;
-    height: 300px;
+    height: auto;
+    padding-top: auto;
     width: 100%;
 }
 
@@ -668,22 +597,23 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 73%;
+    height: auto;
     width: 100%;
-    padding: 0em 2em;
+    padding: 1em 2em;
 }
 
 .logo-footer {
-    height: 200px;
+    height: 11rem;
+    width: 11rem;
 }
 
 .bot-footer-top-icons {
     display: flex;
-    gap: 8rem;
+    gap: 6rem;
 }
 
 .bot-footer-top-icons img {
-    height: 45px;
+    height: 35px;
 }
 
 .box-footer-top-info {
@@ -705,7 +635,11 @@ footer {
     padding: 0em 2em;
     color: #fff;
     border-top: solid 1px #ffffff8e;
-    height: 27%;
+    height: 3rem;
+}
+
+.box-footer-bottom p {
+    font-size: 0.9em;
 }
 
 .box-footer-bottom a {
@@ -715,8 +649,7 @@ footer {
     transition: 1s;
 }
 
-.box-footer-bottom a:hover{
+.box-footer-bottom a:hover {
     border-bottom: solid 1px #fff;
     transition: 1s;
 }
-
