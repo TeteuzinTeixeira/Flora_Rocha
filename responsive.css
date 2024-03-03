@@ -621,3 +621,13 @@
         margin-bottom: 4rem;
     }
 }
+
+@media screen and (max-width: 740px) {
+    .wpp-fixed img {
+        height: 22px;
+        width: 22px;
+    }
+    .wpp-fixed {
+        padding: 10px;
+    }
+}
