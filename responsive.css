@@ -1,3 +1,5 @@
+/* inicio */
+
 @media(max-width: 1444px) {
     main {
         margin-top: 4rem;
@@ -56,12 +58,9 @@
     }
 }
 
-
-
 /* servicos */
 
 @media(max-width: 1444px) {
-
     .servicos {
         gap: 3rem;
         flex-wrap: wrap;
@@ -83,7 +82,6 @@
     .card-servicos p {
         font-size: 0.9em;
     }
-
 }
 
 @media(max-width: 1280px) {
@@ -129,6 +127,8 @@
     }
 }
 
+/* quem somos */
+
 @media(max-width: 1444px) {
 
     .quem-somos-container,
@@ -152,7 +152,6 @@
     .entre-em-contato h2 {
         font-size: 2.5em;
     }
-
 }
 
 @media(max-width: 1280px) {
@@ -245,6 +244,7 @@
 }
 
 /* instagram */
+
 @media screen and (max-width: 1444px) {
 
     .instagram-contato-box-left,
@@ -303,9 +303,7 @@
         width: 1.5rem;
         height: 1.5rem;
     }
-
 }
-
 
 @media screen and (max-width: 1280px) {
     .instagram-contato-container {
@@ -371,7 +369,6 @@
         width: 1.2rem;
         height: 1.2rem;
     }
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -404,7 +401,6 @@
         width: 1.4rem;
         height: 1.4rem;
     }
-
 }
 
 @media screen and (max-width: 520px) {
@@ -417,15 +413,6 @@
         font-size: 2em;
     }
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1444px) {
     .jardim-box-1-text h2 {
@@ -490,14 +477,7 @@
     }
 }
 
-
-
-
-
-
-
-
-
+/* atendemos */
 
 @media screen and (max-width: 1444px) {
     .atendemos-box h2 {
@@ -566,9 +546,7 @@
     }
 }
 
-
-
-
+/* footer */
 
 @media screen and (max-width: 1444px) {
     .bot-footer-top-icons img {

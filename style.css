@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: "Inter", sans-serif; */
 
 * {
     box-sizing: border-box;
@@ -42,8 +41,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .wpp-fixed {
     display: flex;
     align-items: center;
@@ -69,15 +66,12 @@ body {
     width: 40px;
 }
 
-
-
 main {
     display: flex;
     flex-direction: column;
     margin-top: 6rem;
     width: 100%;
 }
-
 
 .inicio {
     width: 100%;
@@ -86,15 +80,12 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding-bottom: 4rem;
     max-height: 1080px;
 }
-
 
 .box-title-inicio {
     display: flex;
@@ -118,14 +109,11 @@ main {
     color: white;
     background-color: #e88d24d0;
     border: solid 2px #e88d24d0;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 10rem;
     height: 4rem;
-
     text-decoration: none;
 }
 
@@ -144,9 +132,7 @@ main {
     height: auto;
     padding: 3rem 2rem;
     width: 100%;
-
     gap: 5rem;
-
 }
 
 .card-servicos {
@@ -188,8 +174,6 @@ main {
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
-
 .sobre-empresa {
     display: flex;
     justify-content: center;
@@ -197,7 +181,6 @@ main {
     flex-direction: column;
     width: 100%;
     height: auto;
-
     border-top: 1px solid #e88d2486;
 }
 
@@ -214,7 +197,6 @@ main {
     height: 100%;
 }
 
-
 .quem-somos {
     display: flex;
     flex-direction: column;
@@ -222,7 +204,6 @@ main {
     align-items: center;
     gap: 3rem;
     color: #E88C24;
-
     padding: 10rem 1rem;
     height: 100%;
 }
@@ -275,8 +256,6 @@ main {
     color: #527236;
 }
 
-
-
 .img-sobre-empresa {
     background-image: url(./assets/images/jardim2.png);
 }
@@ -302,7 +281,6 @@ main {
     background-color: #527236;
     padding: 5rem 5rem;
 }
-
 
 .instagram-contato-box-left,
 .instagram-contato-box-right {
@@ -330,14 +308,12 @@ main {
     font-family: "Volkhov", serif;
 }
 
-
 .box-text-contato-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-
     gap: 4rem;
     margin-top: 2rem;
 }
@@ -349,7 +325,6 @@ main {
     gap: 2rem;
 }
 
-
 .box-text-contato {
     display: flex;
     justify-content: center;
@@ -358,7 +333,6 @@ main {
     gap: 1rem;
     color: white;
     width: 70%;
-
 }
 
 .bg-icon-contato {
@@ -413,14 +387,12 @@ main {
     width: 100%;
 }
 
-
 .box-perfil-instagram {
     display: flex;
     width: 100%;
     height: auto;
     justify-content: flex-start;
     align-items: center;
-
     gap: 1rem;
 }
 
@@ -433,8 +405,6 @@ main {
     font-size: 0.9em;
     text-decoration: none;
 }
-
-
 
 .linha-horizontal-laranja {
     width: 11rem;
@@ -450,7 +420,6 @@ main {
     height: auto;
     align-items: center;
     justify-content: center;
-
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
@@ -484,8 +453,6 @@ main {
     width: 1.8rem;
     height: 1.8rem;
 }
-
-
 
 /* ///////////////////////////////////// */
 
@@ -526,9 +493,6 @@ main {
 .jardim-box-2 img {
     width: 33.33%;
 }
-
-
-
 
 .atendemos-container {
     display: flex;
