@@ -469,10 +469,6 @@ main {
     background-color: #527236;
 }
 
-.jardim-box-1 img {
-    width: 33.33%;
-}
-
 .jardim-box-1-text {
     display: flex;
     justify-content: center;
@@ -490,9 +486,6 @@ main {
     display: flex;
 }
 
-.jardim-box-2 img {
-    width: 33.33%;
-}
 
 .atendemos-container {
     display: flex;
@@ -544,6 +537,71 @@ main {
 .box-contato-atendemos img {
     height: 40px;
 }
+
+.box-text-trabalhos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    opacity: 0;
+
+    transition: 1s;
+
+    background-color: #e9a85ebe;
+    color: #445F2D;
+}
+
+.box-text-trabalhos h1{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.box-text-trabalhos p{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.background-image-trabalhos{
+    width: 33.33%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bg-image-1-trabalho{
+    background-image: url(./assets/images/Jardim3.png);
+}
+
+.bg-image-2-trabalho{
+    background-image: url(./assets/images/Jardim4.png);
+}
+
+.bg-image-3-trabalho{
+    background-image: url(./assets/images/Jardim5.png);
+}
+
+.bg-image-4-trabalho{
+    background-image: url(./assets/images/Jardim6.png);
+}
+
+.bg-image-5-trabalho{
+    background-image: url(./assets/images/Jardim7.png);
+}
+
+.box-text-trabalhos:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 

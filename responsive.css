@@ -414,9 +414,23 @@
     }
 }
 
+@media screen and (min-width: 1920px) {
+    .background-image-trabalhos{
+        height: 25rem;
+    }
+}
+
 @media screen and (max-width: 1444px) {
     .jardim-box-1-text h2 {
         font-size: 3em;
+    }
+
+    .box-text-trabalhos h1{
+        font-size: 1.8em;
+    }
+    
+    .box-text-trabalhos p{
+        font-size: 1em;
     }
 }
 
@@ -436,15 +450,22 @@
         flex-direction: row;
     }
 
-    .jardim-box-1 img,
-    .jardim-box-2 img,
+    .background-image-trabalhos,
     .jardim-box-1-text {
         width: 100%;
-        height: 50%;
+        height: 18rem;
     }
 
     .img-nossos-trabalhos-topo {
         border-radius: 60px 0px 0px 0px;
+    }
+
+    .box-text-trabalhos h1{
+        font-size: 1.6em;
+    }
+    
+    .box-text-trabalhos p{
+        font-size: 1em;
     }
 }
 
@@ -470,10 +491,16 @@
         min-height: 10rem;
     }
 
-    .jardim-box-1 img,
-    .jardim-box-2 img {
+    .background-image-trabalhos{
         height: 20rem;
-        object-fit: cover;
+    }
+
+    .box-text-trabalhos h1{
+        font-size: 1.5em;
+    }
+    
+    .box-text-trabalhos p{
+        font-size: 0.9em;
     }
 }
 
