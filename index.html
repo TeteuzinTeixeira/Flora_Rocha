@@ -10,6 +10,17 @@
   <link rel="stylesheet" href="header.css" />
   <link rel="stylesheet" href="responsive_header.css" />
   <script src="./js/header.js" defer></script>
+  <script src="./js/ancora.js" defer></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+  <meta name="description" content="Flora Rocha Paisagismo, especialista em transformar espaços verdes. Oferecemos serviços de manutenção de jardins, podas precisas e uma seleção cuidadosa de plantas para trazer vida e beleza ao seu ambiente. Descubra o encanto da natureza conosco">
+  <meta property="og:title" content="Flora Rocha Paisagismo" />
+  <meta property="og:description" content="Flora Rocha Paisagismo, especialista em transformar espaços verdes. Oferecemos serviços de manutenção de jardins, podas precisas e uma seleção cuidadosa de plantas para trazer vida e beleza ao seu ambiente. Descubra o encanto da natureza conosco" />
+  <meta name="robots" content="index, follow">
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -48,9 +59,9 @@
           </svg>
         </button>
 
-        <a href="#quem_somos" class="button_header">Quem Somos</a>
-        <a href="#trabalho" class="button_header" class="scroll-link">Trabalho</a>
-        <a href="#local" class="button_header" class="scroll-link">Local</a>
+        <button class="button_header" id="quemSomos" onclick="quemSomosAncora()">Quem Somos</button>
+        <button class="button_header" class="scroll-link" onclick="trabalhoAncora()">Trabalho</button>
+        <button class="button_header" class="scroll-link" onclick="localAncora()">Local</button>
       </nav>
     </div>
   </header>
@@ -89,7 +100,7 @@
       </div>
     </div>
 
-    <div class="sobre-empresa" id="quem_somos">
+    <div class="sobre-empresa" id="scrollQuemSomos">
       <div class="quem-somos-container">
         <div class="quem-somos box-sobre-empresa-text">
           <h2 data-aos="fade-down" data-aos-duration="2000">
@@ -207,7 +218,7 @@
       </div>
     </div>
 
-    <div class="trabalhos-container" id="trabalho">
+    <div class="trabalhos-container" id="scrollTrabalhoAncora">
       <div class="jardim-box-1">
         <div class="jardim-box-1-text">
           <h2 id="trabalhos" data-aos="fade-down" data-aos-duration="2000">
@@ -260,7 +271,7 @@
     </div>
     </div>
 
-    <div class="atendemos-container" id="local">
+    <div class="atendemos-container" id="scrollLocalAncora">
       <div class="atendemos-box">
         <h2>ATENDEMOS TODA REGIAO DE SÃO PAULO</h2>
         <img src="assets/logo/Maps.png" />

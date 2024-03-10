@@ -442,7 +442,7 @@
     .jardim-box-1,
     .jardim-box-2 {
         display: flex;
-        width: 50%;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -453,7 +453,7 @@
     .background-image-trabalhos,
     .jardim-box-1-text {
         width: 100%;
-        height: 18rem;
+        min-height: 20rem;
     }
 
     .img-nossos-trabalhos-topo {
@@ -488,7 +488,7 @@
     }
 
     .jardim-box-1-text {
-        min-height: 10rem;
+        min-height: 8rem;
     }
 
     .background-image-trabalhos{
@@ -600,7 +600,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         height: auto;
-        gap: 3rem;
+        gap: 2rem;
         padding-top: 2rem;
     }
 

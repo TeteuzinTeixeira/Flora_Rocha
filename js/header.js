@@ -17,16 +17,14 @@ window.addEventListener('DOMContentLoaded', function() {
       }
     }
   
-    handleScroll(); // Executa a função uma vez para definir o estado inicial
+    handleScroll(); 
   
-    window.addEventListener('scroll', handleScroll); // Adiciona o evento de rolagem
+    window.addEventListener('scroll', handleScroll); 
   
   });
   
 
 //efeito em cima do header  
-
-
 var header = document.getElementById("header");
 var navigationHeader = document.getElementById("navigation_header")
 var content = document.getElementById("content")
@@ -36,11 +34,9 @@ function toggleSidebar() {
 
     showSidebar = !showSidebar
     if (showSidebar) {
-
         navigationHeader.style.marginLeft = '-10vw';
         navigationHeader.style.animationName = 'showSidebar'
         content.style.filter = 'blur(2px)'
-
     } else {
         navigationHeader.style.marginLeft = '-100vw';
         navigationHeader.style.animationName = ''
@@ -52,16 +48,14 @@ function closedSideBar() {
     if (showSidebar) {
         toggleSidebar();
     }
-
-
 }
 window.addEventListener('resize', function (event) {
 
     if (window.innerWidth > 768 && showSidebar) {
         toggleSidebar()
     }
-
 });
+
 $(document).ready(function () {
     if (window.location.hash) {
         window.location.hash = "";
